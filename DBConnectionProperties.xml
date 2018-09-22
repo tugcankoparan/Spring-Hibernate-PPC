@@ -1,0 +1,26 @@
+#Oracle 11 G Connection
+jdbc.driverClassName=oracle.jdbc.driver.OracleDriver
+jdbc.url=jdbc:oracle:thin:@localhost:1521:mydb
+jdbc.username=tugcan
+jdbc.password=koparan
+hibernate.dialect=org.hibernate.dialect.OracleDialect
+
+#MYSQL Connection
+
+#jdbc.driverClassName=com.mysql.jdbc.Driver
+#jdbc.url=jdbc:mysql://localhost:3306/mydb
+#jdbc.username=root
+#jdbc.password=1843
+#hibernate.dialect=org.hibernate.dialect.MySQLDialect
+
+#PostgreSQL Connection
+
+#jdbc.driverClassName=org.postgresql.Driver
+#jdbc.url=jdbc:postgresql://localhost:5432/mydb
+#jdbc.username=tugcan
+#jdbc.password=1843
+#hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
+
+#Hibernate Properties
+hibernate.hbm2ddl.auto=create
+#hibernate.hbm2ddl.auto=update
