@@ -1,4 +1,4 @@
-package erguder.levent._22.PropertyPlaceholderConfigurer;
+package PropertyPlaceholderConfigurer;
 
 import java.util.List;
 
